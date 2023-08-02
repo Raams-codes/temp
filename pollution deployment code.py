@@ -22,5 +22,20 @@ elif(i=="chandigarh"):
     pickle_in=open("chandigarh_VAR","rb")
     chandigarh_VAR=pickle.load(pickle_in)
 
+st.write("Hello World")
+
+
+# In[ ]:
+
+st.text_input("Enter City Name")
+
+
+
+# In[ ]:
+
+
+if st.button("Submit"):
+  write("Hi we are processing")
+
 if st.button("Predict"):
 
