@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[ ]:
-
+'''
 
 import numpy as np
 import pickle
@@ -21,7 +21,7 @@ elif(i=="visakhapatnam"):
 elif(i=="chandigarh"):
     pickle_in=open("chandigarh_VAR","rb")
     chandigarh_VAR=pickle.load(pickle_in)
-
+'''
 st.write("Hello World")
 
 
