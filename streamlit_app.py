@@ -16,8 +16,8 @@ st.write("Hello World")
 # In[ ]:
 
 st.text_input("Enter City Name")
-
-
+# In[ ]:
+st.selectbox(label=City, options=["Delhi","Patna])
 
 # In[ ]:
 
