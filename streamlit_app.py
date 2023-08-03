@@ -20,7 +20,7 @@ st.text_input("Enter City Name")
 
 # In[ ]:
 
-if input==
+#if input==
 # In[ ]:
 
 if st.button("Submit"):
