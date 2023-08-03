@@ -17,7 +17,7 @@ st.success('Hello {}'.format(name))
 
 # In[ ]:
 input=st.selectbox(label="Select City", options=["Delhi","Patna","Visakhapatnam","Chandigarh"],key=[1,2,3,4])
-
+st.success('Hello {}'.format(input))
 # In[ ]:
 #def prediction(cat):
   
