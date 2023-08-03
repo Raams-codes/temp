@@ -8,7 +8,7 @@ import streamlit as st
 import pandas as pd
 
 # In[7]:
-
+'''
 pickle_delhi = open("classifier.pkl","rb")
 delhi_VAR=pickle.load(pickle_delhi)
 
@@ -20,7 +20,7 @@ visakhapatnam_VAR=pickle.load(visakhapatnam_VAR)
 
 pickle_chandigarh=open("chandigarh","rb")
 chandigarh_VAR=pickle.load(chandigarh_VAR)
-
+'''
 # In[]:
 
 st.header("Pollution prediction portal")
