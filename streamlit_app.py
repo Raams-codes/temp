@@ -14,13 +14,13 @@ st.write("Hello World")
 
 
 # In[ ]:
-st.selectbox(label="Select City", options=["Delhi","Patna","Visakhapatnam","Chandigarh"])
+input=st.selectbox(label="Select City", options=["Delhi","Patna","Visakhapatnam","Chandigarh"],key=[1,2,3,4])
 
 st.text_input("Enter City Name")
 
 # In[ ]:
 
-
+if input==
 # In[ ]:
 
 if st.button("Submit"):
