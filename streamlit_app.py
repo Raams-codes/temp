@@ -10,7 +10,7 @@ import pandas as pd
 # In[7]:
 
 pickle_delhi = open("classifier.pkl","rb")
-classifier=pickle.load(pickle_delhi)
+delhi_VAR=pickle.load(pickle_delhi)
 
 pickle_patna=open("patna_VAR","rb")
 patna_VAR=pickle.load(patna_VAR)
