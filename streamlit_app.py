@@ -25,11 +25,15 @@ chandigarh_VAR=pickle.load(chandigarh_VAR)
 # In[]:
 
 st.header("Pollution prediction portal")
-st.write("Hello User")
+
+name=st.text_input("Enter your Name")
+st.write('Hello {}'.format(name))
+
+
 # In[ ]:
 input=st.selectbox(label="Select City", options=["Delhi","Patna","Visakhapatnam","Chandigarh"],key=[1,2,3,4])
 
-st.text_input("Enter City Name")
+
 
 # In[ ]:
 #def prediction(cat):
