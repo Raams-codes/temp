@@ -31,11 +31,11 @@ input=st.selectbox(label="Select City", options=["Delhi","Patna","Visakhapatnam"
 st.text_input("Enter City Name")
 
 # In[ ]:
-def prediction(cat):
+#def prediction(cat):
   
 #
-if input==1:
-  result==predict
+#if input==1:
+ # result==predict
   
 # In[ ]:
 st.success('The output is {}'.format(result))
