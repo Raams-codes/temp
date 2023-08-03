@@ -7,33 +7,16 @@
 import streamlit as st
 import pandas as pd
 
-"""
-'''
-pickle_delhi = open("classifier.pkl","rb")
-delhi_VAR=pickle.load(pickle_delhi)
-
-pickle_patna=open("patna_VAR","rb")
-patna_VAR=pickle.load(patna_VAR)
-
-pickle_visakhapatnam=open("visakhapatnam_VAR","rb")
-visakhapatnam_VAR=pickle.load(visakhapatnam_VAR)
-
-pickle_chandigarh=open("chandigarh","rb")
-chandigarh_VAR=pickle.load(chandigarh_VAR)
-'''
-"""
 # In[]:
 
 st.header("Pollution prediction portal")
 
 name=st.text_input("Enter your Name")
-st.write('Hello {}'.format(name))
+st.success('Hello {}'.format(name))
 
 
 # In[ ]:
 input=st.selectbox(label="Select City", options=["Delhi","Patna","Visakhapatnam","Chandigarh"],key=[1,2,3,4])
-
-
 
 # In[ ]:
 #def prediction(cat):
@@ -138,4 +121,20 @@ def main():
 
 if __name__=='__main__':
     main()
+ 
+"""
+'''
+pickle_delhi = open("classifier.pkl","rb")
+delhi_VAR=pickle.load(pickle_delhi)
+
+pickle_patna=open("patna_VAR","rb")
+patna_VAR=pickle.load(patna_VAR)
+
+pickle_visakhapatnam=open("visakhapatnam_VAR","rb")
+visakhapatnam_VAR=pickle.load(visakhapatnam_VAR)
+
+pickle_chandigarh=open("chandigarh","rb")
+chandigarh_VAR=pickle.load(chandigarh_VAR)
+'''
+"""
     '''
