@@ -12,6 +12,27 @@ import pandas as pd
 st.header("Pollution prediction portal")
 
 name=st.text_input("Enter your Name")
+
+
+# In[ ]:
+city=st.selectbox(label="Select City", options=["Delhi","Patna","Visakhapatnam","Chandigarh"],key=[1,2,3,4])
+
+if st.button("Predict"):
+    st.write(f'Hello {name}')
+    if city=="Delhi":
+        pickle_delhi = open("classifier.pkl","rb")
+        delhi_VAR=pickle.load(pickle_delhi)
+        result = delhi_VAR.forecast(y=lagged_values,steps=7)
+        st.success(f"result is{result}")
+'''
+import streamlit as st
+import pandas as pd
+
+# In[]:
+
+st.header("Pollution prediction portal")
+
+name=st.text_input("Enter your Name")
 st.success('Hello {}'.format(name))
 
 
@@ -45,7 +66,7 @@ Created on Fri May 15 12:50:04 2020
 @author: krish.naik
 """
 
-
+'''
 import numpy as np
 import pickle
 import pandas as pd
@@ -121,7 +142,7 @@ def main():
 
 if __name__=='__main__':
     main()
- 
+ '''
 """
 '''
 pickle_delhi = open("classifier.pkl","rb")
