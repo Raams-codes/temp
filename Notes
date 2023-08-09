@@ -1,0 +1,4 @@
+code notes
+
+:to find alphabets in numerical column
+    df[df.col_name.str.isdigit()=False]
