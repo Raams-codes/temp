@@ -1,4 +1,8 @@
 code notes
 
 :to find alphabets in numerical column
-    df[df.col_name.str.isdigit()=False]
+        df[df.col_name.str.isdigit()=False]
+
+
+:to show distribution of the data 
+        sns.distplot(df["col_name"])
